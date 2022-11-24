@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T12:38:52.643Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42" etag="j7ZzOa0Fyh_B1CUCrVdf" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-24T03:32:31.949Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56" etag="WaWehRUlkUhxfjuc5t9D" version="20.6.0" type="github">
   <diagram name="Page-1" id="12e1b939-464a-85fe-373e-61e167be1490">
-    <mxGraphModel dx="784" dy="91" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="382" dy="68" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="60da8b9f42644d3a-17" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=8;fontSize=20;align=center;fillColor=#202F9F;strokeColor=#FFFFFF;container=0;" parent="1" vertex="1">
           <mxGeometry x="808" y="405" width="280" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="60da8b9f42644d3a-19" value="&lt;b&gt;处理：&lt;/b&gt;自适应二值化去除了阈值对边界提取的影响&lt;br&gt;&lt;b&gt;效果：&lt;/b&gt;获取直径和线缆中线，得到直径像素与空间转换关系" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontColor=#FFFFFF;container=0;" parent="1" vertex="1">
+        <mxCell id="60da8b9f42644d3a-19" value="&lt;b&gt;处理：&lt;/b&gt;转灰度图后进行轮廓的检测提取&lt;br&gt;&lt;b&gt;效果：&lt;/b&gt;获取直径和线缆中线，得到直径像素与空间转换关系" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontColor=#FFFFFF;container=0;" parent="1" vertex="1">
           <mxGeometry x="822.5" y="701" width="254.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="60da8b9f42644d3a-20" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
@@ -40,40 +40,40 @@
         <mxCell id="60da8b9f42644d3a-38" value="搭盖边界提取" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=6;fontSize=20;align=center;fillColor=#BF639A;strokeColor=#FFFFFF;fontColor=#FFE07C;container=0;" parent="1" vertex="1">
           <mxGeometry x="1230" y="523" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="bJDOVTNRnxj50xf65BV4-1" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=8;fontSize=20;align=center;fillColor=#202F9F;strokeColor=#FFFFFF;container=0;" vertex="1" parent="1">
+        <mxCell id="bJDOVTNRnxj50xf65BV4-1" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=8;fontSize=20;align=center;fillColor=#202F9F;strokeColor=#FFFFFF;container=0;" parent="1" vertex="1">
           <mxGeometry x="1493" y="405" width="280" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="bJDOVTNRnxj50xf65BV4-3" value="&lt;b&gt;处理：&lt;/b&gt;霍夫变换拟合直线便于与中线取交点&lt;br&gt;&lt;b&gt;效果：&lt;/b&gt;通过交点获取两个缝隙之间的像素距离" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontColor=#FFFFFF;container=0;" vertex="1" parent="1">
+        <mxCell id="bJDOVTNRnxj50xf65BV4-3" value="&lt;b&gt;处理：&lt;/b&gt;搭盖检测的边缘线与中线取交点&lt;br&gt;&lt;b&gt;效果：&lt;/b&gt;通过交点获取两个缝隙之间的像素距离" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontColor=#FFFFFF;container=0;" parent="1" vertex="1">
           <mxGeometry x="1506" y="688" width="267" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="bJDOVTNRnxj50xf65BV4-4" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="bJDOVTNRnxj50xf65BV4-4" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1513" y="482" width="240" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="bJDOVTNRnxj50xf65BV4-5" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="bJDOVTNRnxj50xf65BV4-5" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1513" y="682" width="240" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="bJDOVTNRnxj50xf65BV4-7" value="边界与中线交点获取" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=6;fontSize=20;align=center;fillColor=#BF639A;strokeColor=#FFFFFF;fontColor=#FFE07C;container=0;" vertex="1" parent="1">
+        <mxCell id="bJDOVTNRnxj50xf65BV4-7" value="边界与中线交点获取" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=6;fontSize=20;align=center;fillColor=#BF639A;strokeColor=#FFFFFF;fontColor=#FFE07C;container=0;" parent="1" vertex="1">
           <mxGeometry x="1573" y="523" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="bJDOVTNRnxj50xf65BV4-6" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.stylisedArrow;dy=0.6;dx=40;notch=15;feather=0.4;rounded=0;strokeWidth=1;fontSize=27;strokeColor=none;fillColor=#9FBED7;" vertex="1" parent="1">
+        <mxCell id="bJDOVTNRnxj50xf65BV4-6" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.stylisedArrow;dy=0.6;dx=40;notch=15;feather=0.4;rounded=0;strokeWidth=1;fontSize=27;strokeColor=none;fillColor=#9FBED7;" parent="1" vertex="1">
           <mxGeometry x="1450" y="553" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bJDOVTNRnxj50xf65BV4-12" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=8;fontSize=20;align=center;fillColor=#202F9F;strokeColor=#FFFFFF;container=0;" vertex="1" parent="1">
+        <mxCell id="bJDOVTNRnxj50xf65BV4-12" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=8;fontSize=20;align=center;fillColor=#202F9F;strokeColor=#FFFFFF;container=0;" parent="1" vertex="1">
           <mxGeometry x="1828" y="405" width="280" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="bJDOVTNRnxj50xf65BV4-13" value="&lt;span style=&quot;background-color: initial;&quot;&gt;处理：通过线缆直径与缝隙边界之间的距离，计算螺旋角与搭盖垂直距离&lt;br&gt;&lt;b&gt;效果：&lt;/b&gt;获取搭盖宽度&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontColor=#FFFFFF;container=0;" vertex="1" parent="1">
+        <mxCell id="bJDOVTNRnxj50xf65BV4-13" value="&lt;span style=&quot;background-color: initial;&quot;&gt;处理：通过线缆直径与缝隙边界之间的距离，计算螺旋角与搭盖垂直距离&lt;br&gt;&lt;b&gt;效果：&lt;/b&gt;获取搭盖宽度&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontColor=#FFFFFF;container=0;" parent="1" vertex="1">
           <mxGeometry x="1840" y="696" width="268" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="bJDOVTNRnxj50xf65BV4-14" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="bJDOVTNRnxj50xf65BV4-14" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1848" y="483" width="240" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="bJDOVTNRnxj50xf65BV4-15" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="bJDOVTNRnxj50xf65BV4-15" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1848" y="682" width="240" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="bJDOVTNRnxj50xf65BV4-16" value="计算搭盖宽度" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=6;fontSize=20;align=center;fillColor=#BF639A;strokeColor=#FFFFFF;fontColor=#FFE07C;container=0;" vertex="1" parent="1">
+        <mxCell id="bJDOVTNRnxj50xf65BV4-16" value="计算搭盖宽度" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=6;fontSize=20;align=center;fillColor=#BF639A;strokeColor=#FFFFFF;fontColor=#FFE07C;container=0;" parent="1" vertex="1">
           <mxGeometry x="1912" y="523" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="bJDOVTNRnxj50xf65BV4-17" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.stylisedArrow;dy=0.6;dx=40;notch=15;feather=0.4;rounded=0;strokeWidth=1;fontSize=27;strokeColor=none;fillColor=#9FBED7;" vertex="1" parent="1">
+        <mxCell id="bJDOVTNRnxj50xf65BV4-17" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.stylisedArrow;dy=0.6;dx=40;notch=15;feather=0.4;rounded=0;strokeWidth=1;fontSize=27;strokeColor=none;fillColor=#9FBED7;" parent="1" vertex="1">
           <mxGeometry x="1784" y="553" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="60da8b9f42644d3a-2" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=8;fontSize=20;align=center;fillColor=#202F9F;strokeColor=#FFFFFF;container=0;" parent="1" vertex="1">
