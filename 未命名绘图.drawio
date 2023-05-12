@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T08:29:07.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35" etag="HwLk_IfD3ve8WVJl7RqQ" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-12T07:25:19.242Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35" etag="GNXWcZsIbx5bYS6wIq76" version="21.2.9" type="github">
   <diagram name="Page-1" id="12e1b939-464a-85fe-373e-61e167be1490">
-    <mxGraphModel dx="670" dy="218" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="0" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="739" dy="36" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="0" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="60da8b9f42644d3a-17" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=8;fontSize=20;align=center;fillColor=#202F9F;strokeColor=#FFFFFF;container=0;" parent="1" vertex="1">
           <mxGeometry x="808" y="405" width="280" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="60da8b9f42644d3a-19" value="&lt;b&gt;处理：&lt;/b&gt;使用deeplabV3对图像进行前景的分割，后计算轮廓坐标&lt;br&gt;&lt;b&gt;效果：&lt;/b&gt;获取直径和线缆中线，得到直径像素与空间转换关系" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontColor=#FFFFFF;container=0;" parent="1" vertex="1">
+        <mxCell id="60da8b9f42644d3a-19" value="&lt;b&gt;处理：&lt;/b&gt;使用实时语义分割模型对图像进行前景的分割，后计算轮廓坐标&lt;br&gt;&lt;b&gt;效果：&lt;/b&gt;获取直径和线缆中线，得到直径像素与空间转换关系" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontColor=#FFFFFF;container=0;" parent="1" vertex="1">
           <mxGeometry x="822.5" y="701" width="254.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="60da8b9f42644d3a-20" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
